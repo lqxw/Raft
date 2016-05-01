@@ -10,6 +10,7 @@ const int heartBeatTime = 10;
 const int clientSendLogTime = 300;
 const int maxFailureNumber = MaxMachine/2 - 1;
 const int failureProbability = 20; // 1/20 failure rate when send log
+// global config ends
 
 bool useOptimize = false;
 int crashNumber = 0;
